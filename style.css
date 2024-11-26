@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(145, 145, 145, 0.473);
+}
+
+.contact-form {
+    padding: 15px;
+    max-width: 500px;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.9);
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.contact-form h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+#contact-us input {
+    gap: 30px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    border: none;
+}
+
+#contact-us textarea {
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#contact-us button {
+    width: 300px;
+    height: 45px;
+    background-color: rgb(0, 51, 219);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#contact-us button:hover {
+    background-color: rgb(58, 101, 245);
+    color: rgb(255, 255, 255);
+    transition: 2s;
+}
+
+#contact-us label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+
+.error {
+    color: rgb(168, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.success {
+    color: rgb(8, 73, 8);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
